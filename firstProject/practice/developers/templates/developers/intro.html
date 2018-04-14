@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	{% block head %}
+		{% load static %}
+		<link rel='stylesheet' type='text/css' href="{% static 'developers/style.css' %}"/>
+		<title> UWS | Home </title>
+	{% endblock %}
+</head>
+
+	<body>
+		<!-- Header -->	
+		<div class=topBottom>	
+		</div>
+		
+		<div id=headerMenu>
+			<table class=menu>
+				<th  class=tableButton> <a href='/home/' class=transparentButton> Home </a> </th> 
+				<th  class=tableButton> <a href='/devies/' class=transparentButton> Developers </a> </th> 
+				<th  class=tableButton> <a href='/investies/' class=transparentButton> Investors </a> </th> 
+				<th  class=tableButton> <a href='/idealies/' class=transparentButton> Idealists </a> </th> 
+				<th  class=tableButton> <a href='/home/about/' class=transparentButton> About </a> </th> 
+			</table> 
+		</div>
+
+		<!-- Main Body -->	
+		<div id = mainBody>
+			{% block content %}
+				<a href='devies/upload'> Upload Files </a>
+			{% endblock %}
+		</div>
+		
+		<div class= topBottom>
+			{% block footer %}
+				<h4 id=footerText> All right reserved by a Jedi </h4>
+			{% endblock %}
+		</div> 
+
+	</body>
+</html>

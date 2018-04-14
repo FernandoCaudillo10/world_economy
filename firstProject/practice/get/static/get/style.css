@@ -1,0 +1,54 @@
+* { margin: 0px; padding: 0px; }
+
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: powderblue;
+}
+#mainBody{
+	position: static;
+	min-height: 730px;
+	padding: 10px 50px 10px 50px;
+	margin-left: 50px;
+	margin-right: 50px;	
+	background-color: rgb(119,136,153);
+}
+.topBottom{
+	top: 0px;
+	height: 50px;
+	background-color: grey;
+	text-align: center;
+}
+#headerMenu{
+	height: 50px;
+	padding-left: 50px;
+	background-color: white;
+}
+.menu{
+	height: 100%;
+}
+.tableButton{
+	border-style: outset;
+	border-width: 0px 1px 1px 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: medium;
+}
+.transparentButton{
+	color: black;
+	text-decoration: none;
+}
+.header{
+	margin: 0px;
+}
+#abs{
+	position: absolute;
+	top: 0px;
+}
+.footerText{
+	margin: 0px;
+}
