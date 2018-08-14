@@ -1,0 +1,33 @@
+{
+    "avm": {
+        "name": "helloWorld",
+        "hash": "856c7fd1d7e346b1c29aec0f8c7184c5"
+    },
+    "compiler": {
+        "name": "neo-boa",
+        "version": "0.4.0"
+    },
+    "files": [
+        {
+            "id": 1,
+            "url": "/neo-python/smartContracts/helloWorld.py"
+        }
+    ],
+    "map": [
+        {
+            "start": 3,
+            "end": 33,
+            "file": 1,
+            "method": "main",
+            "line": 3,
+            "file_line_no": 3
+        },
+        {
+            "start": 34,
+            "end": 34,
+            "file": 1,
+            "line": 4
+        }
+    ],
+    "breakpoints": []
+}
